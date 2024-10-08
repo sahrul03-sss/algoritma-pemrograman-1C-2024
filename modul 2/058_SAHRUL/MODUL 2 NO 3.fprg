@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="MODUL 2 NO 3"/>
+        <attribute name="authors" value="Windows 11"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 07:50:38 AM"/>
+        <attribute name="created" value="V2luZG93cyAxMTtTUzsyMDI0LTEwLTA3OzExOjUwOjA4IEFNOzIzMDM="/>
+        <attribute name="edited" value="V2luZG93cyAxMTtTUzsyMDI0LTEwLTA4OzA3OjUwOjM4IEFNOzE7MjQyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sekorjaka, ipkjaka, skorida, ipkida, minimalskor, minimalipk" type="Real" array="False" size=""/>
+            <assign variable="sekorjaka" expression="1100"/>
+            <assign variable="ipkjaka" expression="3.5"/>
+            <assign variable="skorida" expression="1000"/>
+            <assign variable="ipkida" expression="3.5"/>
+            <assign variable="minimalskor" expression="1100"/>
+            <assign variable="minimalipk" expression="3.5"/>
+            <if expression="sekorjaka &gt;= minimalskor and&#13;&#10;ipkjaka &gt;=minimalipk">
+                <then>
+                    <output expression="&quot;jaka lolos beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jaka tidak lolos beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="skorida &gt;= minimalskor and ipkida &gt;= minimalipk">
+                <then>
+                    <output expression="&quot;jika ida beasiswa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ida tidak beasiswa&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
