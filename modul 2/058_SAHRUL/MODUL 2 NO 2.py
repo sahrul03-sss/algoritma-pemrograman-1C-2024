@@ -6,6 +6,11 @@ ipk_ida = 3.5
 skor_minimum = 1100
 ipk_minimum = 3.0
 
+
+input("masukan sekor jaka: ")
+    input("masukan ipk jaka: ")
+  input("masukan sekor ida: ")
+    input("masukan ipk ida")
 if sekor_jaka >= skor_minimum and ipk_jaka >= ipk_minimum:
     hasil_jaka = "Jaka lulus persyaratan beasiswa."
     print(hasil_jaka)
